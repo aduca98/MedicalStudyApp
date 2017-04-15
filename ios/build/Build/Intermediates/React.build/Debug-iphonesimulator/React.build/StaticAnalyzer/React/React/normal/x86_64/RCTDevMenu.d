@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Modules/RCTDevMenu.mm \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/aduca/Documents/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/aduca/Documents/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTKeyCommands.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/aduca/Documents/AwesomeProject/node_modules/react-native/React/Base/RCTWebSocketObserverProtocol.h

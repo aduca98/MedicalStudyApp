@@ -1,0 +1,45 @@
+import React from 'react';
+import {
+	View,
+	Text,
+	ScrollView
+} from 'react-native';
+import { makeNavOptions } from '../../config/headerFxn';
+import styles from './styles';
+
+class Privacy extends React.Component {
+
+	static navigationOptions = makeNavOptions('Privacy Policy');
+
+	render() {
+
+
+		return(
+
+			<ScrollView> 
+
+				<Text style={styles.center}>Privacy Policy - Amethyst Application</Text>
+
+				<Text style={styles.padding}>
+				Effective Date: 4/10/2017
+				 Privacy Policy and Purpose.  This provisions of this Privacy Policy (the “Privacy Policy”) govern privacy matters pertaining to your use of the Amethyst Application for mobile devices (the “Amethyst Application”) and the Amethyst Application Web page (the “Amethyst Application Web Page”), and you acknowledge and agree that the provisions of this Privacy Policy are an essential part of the Terms of Use.
+				 Application of this Privacy Policy.  This Privacy Policy applies solely to the Amethyst Application and the Amethyst Application Web Page.  This Privacy Policy does not apply to information collected through other webpages operated by Mirati, or to other mobile device applications or software provided by Mirati.  This Privacy Policy does not apply to information collected by any web sites, applications, software or services offered by third parties, including any third-party wb site reached through a link on or through the Amethyst Application and the Amethyst Application Web Page.  You are responsible for reviewing and understanding the privacy policies of any other Mirati web sites you visit, of any other Mirati applications you access or use, and of any third-party web sites, applications, software or services, whether or not you access these sites or services through the Amethyst Application or the Amethyst Application Web Page.  We have no control over, and we assume no responsibility for, the content, privacy policies, or practices of any third-party web site, applications, software or services.  Mirati makes no representations, warranties or covenants of any kind as to the accuracy, currency, or completeness of any information contained in such third-party websites, applications, software or services, and Mirati shall have no liability for, and you hereby fully release Mirati from and in respect of claims for, any damage or injury you may suffer from your use of such third-party websites, applications, software or services.
+				 Use and Disclosure of Personally Identifiable Information.  Mirati does not collect personally identifiable information (such as your name, address, telephone number, or e-mail address, date of birth, or other individually identifiable information about you (herein, “Personal Information”) from users of the Amethyst Application or the Amethyst Application Web Page, except as described below in the paragraph titled “Collection and Use of Your Login Credentials.”  Neither Mirati nor third-parties contracted by Mirati use the Amethyst Application or the Amethyst Application Web Page to collect Personal Information about your online activities over time, or across third-party web sites or online services.  Therefore, the Amethyst Application does not respond to web browser “do not track” signals or other mechanisms that provide the ability to opt out of the collection of personally identifiable information about an individual user’s online activities over time.
+				 Collection and Use of Your Login Credentials.  If you are authorized to download and use the Amethyst Application, Mirati provides you with a user-name, password and/or other identifiers (your “Login Credentials”).  Mirati requires you to enter your Login Credentials in order to download, access and use the Amethyst Application and/or the Amethyst Application Web Page.  Mirati collects and uses your Login Credentials in order to verify that you are authorized to download, access and use the Amethyst Application and the Amethyst Application Web Page, and the information contained therein.  Mirati may combine your Login Credentials with certain other Personal Information not collected through the Amethyst Application or the Amethyst Application Web Page (such as your name, your address, your institution or study site, and/or the version of the Amethyst Study protocol applicable to your study site at any particular time).  Mirati may use your Login Credentials, alone, or in combination with other Personal Information not collected through the Amethyst Application or the Amethyst Application Web Page, for internal purposes, such as to provide you with the Amethyst Application, to notify you of updates to the Amethyst Application, or otherwise to communicate with you about the Amethyst Application or the Amethyst Application Web Page, or to verify compliance with the these Terms of Use, including this Privacy Policy.  Mirati will not share your Login Credentials with third parties without your consent, except: (i) to third parties contracted to provide services to Mirati with respect to the Amethyst Study and the Amethyst Application, (ii) as necessary to comply with the law, with requests by law enforcement authorities, or with legal process (including but not limited to court orders and subpoenas), or (iii) to enforce these Terms of Use, including this Privacy Policy, as more fully described herein.
+				 Compliance with Laws, Law Enforcement and Governmental Authorities.  From time to time, we may be required by law, or by law enforcement, judicial authorities or other governmental authorities (collectively, “Governmental Authorities”) to provide your Login Credentials, or other Personal Information, to such Governmental Authorities.  We will disclose such information upon receipt of a court order or subpoena, if we determine that such disclosure is required by applicable law, or to cooperate with a law enforcement investigation or legal process. We fully cooperate with Governmental Authorities in identifying those who use the Amethyst Application or the Amethyst Application Web Page for illegal purposes or otherwise violate the law. We reserve the right to report to Governmental Authorities any activities that we in good faith believe to be unlawful.  In addition, we may be required to provide your Login Credentials, or other Personal Information, to a person or entity that has brought a civil lawsuit, and we will disclose such information upon receipt of a court order or subpoena, or if we determine that such disclosure is required by applicable law.  Moreover, we may disclose your Login Credentials or, subject to the terms of any Confidentiality Provisions (as defined above) applicable to you and Mirati, other Personal Information, if, in our discretion, we believe it is necessary or appropriate in order to enforce or apply these Terms of Use, establish or exercise our legal rights or defend against legal claims, or to protect the rights, property and safety of our users, ourselves or other third parties, or to prevent or stop any illegal, unethical, or legally actionable activity.
+				 Children’s Online Privacy Protection.  Mirati is committed to protecting the privacy of children. The Amethyst Application and the Amethyst Application Web Page are intended for individuals over the age of 18 and we do not intend to nor do we knowingly collect Personal Information from children under the age of 18 through use of the Amethyst Application or the Amethyst Application Web Page.  If we become aware that we have inadvertently received Personal Information from a child under the age of 18 through the Amethyst Application or the Amethyst Application Web Page, we will delete such information from our records.  If you become aware that a child has provided us with Personal Information, including personally identifiable information, the parent or guardian of that child may contact us via the Mirati Contact Information below.
+
+				Security. We take reasonable precautions to maintain the protection of Login Credentials and employ technical safeguards, physical controls and other procedures to safeguard your Login Credentials.  However, we cannot guarantee that such information is completely secure from people who might attempt to circumvent or evade our security measures.
+
+				Updates to this Privacy Policy.  We reserve the right to change this Privacy Policy at any time and from time to time in our sole discretion.  When we make such changes, we will alert you that changes have been made through the Amethyst Application on the Amethyst Application Web Page and inform you of the effective date of the updated Privacy Policy.
+
+				Questions. If you have any questions about these Terms of Use, including the provisions of this Privacy Policy, or other aspects of the Amethyst Application or the Amethyst Application Web Page, please contact us via the Mirati Contact Information below. 
+				</Text>
+				
+			</ScrollView>
+		)
+	}
+
+}
+
+export default Privacy;
